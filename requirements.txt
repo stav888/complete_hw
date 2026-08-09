@@ -1,0 +1,10 @@
+numpy
+pandas
+matplotlib
+scikit-learn
+pytest
+fastapi
+uvicorn
+httpx
+openai
+Pillow
