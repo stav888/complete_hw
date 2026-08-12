@@ -1,3 +1,10 @@
-# FastAPI SQLite Books API
+Files:
+- api.py
+- dal.py
+- README.md
 
-Run from this folder with `uvicorn api:app --reload`. `dal.py` owns SQLite access and `api.py` exposes validated REST endpoints. The database file is created locally and contains no secrets.
+Task link:
+https://github.com/pythonai200425/16.03.2026/blob/main/hw.md
+
+Email:
+pythonai200425+restsql@gmail.com

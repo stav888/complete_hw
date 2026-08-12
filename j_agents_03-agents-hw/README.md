@@ -1,3 +1,10 @@
-# Tool-Using Agent
+Files:
+- j_agents_03-agents-hw.py
+- eval_results.md
+- agent_steps.jsonl
 
-`agent.py` demonstrates a bounded tool loop, safe arithmetic parsing, CSV path allow-listing, prompt-injection rejection, evidence, limitations, and JSONL step logging. Live web search is deliberately disabled in the offline submission. Run `python agent.py` for the calculator demo.
+Task link:
+https://github.com/pythonai200425/pages_ai/blob/main/j_agents/03-agents-hw.md
+
+Email:
+לא צוין

@@ -1,3 +1,9 @@
-# FastAPI Books API
+Files:
+- in_memory_api.py
+- README.md
 
-Run with `uvicorn in_memory_api:app --reload`. The API implements GET, POST, PUT, PATCH, and DELETE for `/books` using Pydantic validation and in-memory storage.
+Task link:
+https://github.com/pythonai200425/12.03.2026/blob/main/hw.md
+
+Email:
+pythonai200425+rest1@gmail.com
