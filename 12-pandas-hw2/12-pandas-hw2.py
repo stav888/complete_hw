@@ -29,6 +29,11 @@ def main():
     cells.iat[1, 1] = 36
     print(cells)
 
+    df1 = pd.DataFrame({"A": [1, 2, 3], "B": [4, 5, 6]})
+    df2 = pd.DataFrame({"A": [7, 8, 9], "B": [10, 11, 12]})
+    print("concat by rows:\n", pd.concat([df1, df2], ignore_index=True))
+    print("concat by columns:\n", pd.concat([df1, df2], axis=1))
+
     products = pd.DataFrame({"name": ["Book", "Pen", "Laptop", "Phone"], "price": [50, 10, 120, 80], "quantity": [5, 2, 10, 7]})
     print(products[products.price > 100])
     print(products[products.quantity.isin([5, 10])])
