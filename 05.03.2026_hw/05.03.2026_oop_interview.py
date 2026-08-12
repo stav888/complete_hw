@@ -4,7 +4,7 @@ class Dog:
         self.age = age
 
     def bark(self):
-        return "Woof"
+        print("Woof")
 
 
 class BankAccount:
@@ -26,9 +26,14 @@ class Animal:
         raise NotImplementedError
 
 
+class DogAnimal(Animal):
+    def speak(self):
+        print("Woof")
+
+
 class Cat(Animal):
     def speak(self):
-        return "Meow"
+        print("Meow")
 
 
 class Person:
